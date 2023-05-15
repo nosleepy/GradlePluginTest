@@ -1,0 +1,26 @@
+plugins {
+    id 'groovy'
+    id 'maven-publish'
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.grandstream.tinyplugin'
+            artifactId = 'compress'
+            version = '1.0.0'
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            url = '../repo'
+        }
+    }
+}
