@@ -1,13 +1,18 @@
 plugins {
     id 'com.android.application'
-//    id 'com.grandstream.myplugin'
+    id 'com.grandstream.myplugin'
+    id 'com.grandstream.logplugin'
     id 'com.grandstream.tinyplugin'
 }
 
-//user {
-//    username "admin"
-//    password "123456"
-//}
+log {
+    name="gs"
+}
+
+user {
+    username "admin"
+    password "123456"
+}
 
 tinyExt {
     apiKey "MMqBc9Lyd3T2GDTxXPz972Pgk5PH8qW1"

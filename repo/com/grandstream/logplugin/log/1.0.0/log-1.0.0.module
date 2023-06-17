@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.grandstream.logplugin",
+    "module": "log",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "log-1.0.0.jar",
+          "url": "log-1.0.0.jar",
+          "size": 15730,
+          "sha512": "898ae825d4248f4ee59b0a20a8d36117d60563ba28af59ff469431460325dd09f18af8b0076f8e67949815c60ab0ffdcde6f9bf6f9d4f347875f016d79e16c1b",
+          "sha256": "70cec5b6a9ac2d4e2d7be3e1b34fbaa42168f9ba2a003859967c167b779241d1",
+          "sha1": "e4ced984341cca345f9765a6c0ef4d22e7b16cf3",
+          "md5": "438a96193ea683fd756c1527983f7820"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "log-1.0.0.jar",
+          "url": "log-1.0.0.jar",
+          "size": 15730,
+          "sha512": "898ae825d4248f4ee59b0a20a8d36117d60563ba28af59ff469431460325dd09f18af8b0076f8e67949815c60ab0ffdcde6f9bf6f9d4f347875f016d79e16c1b",
+          "sha256": "70cec5b6a9ac2d4e2d7be3e1b34fbaa42168f9ba2a003859967c167b779241d1",
+          "sha1": "e4ced984341cca345f9765a6c0ef4d22e7b16cf3",
+          "md5": "438a96193ea683fd756c1527983f7820"
+        }
+      ]
+    }
+  ]
+}

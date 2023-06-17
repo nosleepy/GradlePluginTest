@@ -1,7 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     dependencies {
-//        classpath "com.grandstream.myplugin:test:1.0.0"
+        classpath "com.grandstream.myplugin:test:1.0.0"
+        classpath "com.grandstream.logplugin:log:1.0.0"
         classpath "com.grandstream.tinyplugin:compress:1.0.0"
     }
 }

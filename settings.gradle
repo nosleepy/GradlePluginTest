@@ -19,3 +19,4 @@ rootProject.name = "GradlePluginTest"
 include ':app'
 include ':myplugin'
 include ':tinyplugin'
+include ':logplugin'
